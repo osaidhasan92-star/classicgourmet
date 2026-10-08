@@ -30,7 +30,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdro
 .nav{height:104px;display:grid;grid-template-columns:250px minmax(0,1fr) auto;align-items:center;column-gap:24px;min-width:0;max-width:1100px}
 .logo{width:250px;height:98px;object-fit:contain;object-position:left center;display:block;background:transparent;flex:0 0 250px}
 .navlinks{display:flex;align-items:center;justify-content:center;gap:22px;margin-left:0;min-width:0;white-space:nowrap;flex:1 1 auto}
-.navlinks>a,.dropdown>a{font-size:13px;font-weight:700;color:#27303A;position:relative;padding:39px 0}
+.navlinks>a,.dropdown>a{font-size:16px;font-weight:700;color:#27303A;position:relative;padding:39px 19px}
 .navlinks a:hover,.navlinks a.active{color:var(--green-dark)}
 .navlinks a.active:after,.navlinks>a:hover:after,.dropdown>a:hover:after,.dropdown>a.active:after{content:"";position:absolute;left:0;right:0;bottom:25px;height:3px;border-radius:4px;background:linear-gradient(90deg,var(--orange),var(--green),var(--red))}
 .nav-actions{display:flex;align-items:center;gap:10px;flex:0 0 auto;margin-left:0}
